@@ -8,7 +8,7 @@ using TypeSpec.M365.Copilot.Agents;
 using TypeSpec.M365.Copilot.Actions;
 
 @agent(
-  "tesst3",
+  "testtypespcs",
   "Declarative agent created with Microsoft 365 Agents Toolkit and TypeSpec for Microsoft 365 Copilot."
 )
 
@@ -23,7 +23,7 @@ using TypeSpec.M365.Copilot.Actions;
   text: "Get the latest issues from GitHub" 
 })
 
-namespace tesst3 {  
+namespace testtypespc {  
   // Uncomment this part to add actions to the agent.
   @service
   @server(global.GitHubAPI.SERVER_URL)
